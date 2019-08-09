@@ -1,0 +1,1138 @@
+[
+  {
+    "_id": "567055daf289f5a40c0cd2d5",
+    "creation_date": "2015-12-15T18:03:06.000Z",
+    "scientificNameSimple": "Podocnemis expansa Schweigger, 1812",
+    "commonNames": [
+      {
+        "language": "Inglés",
+        "name": "Arrau River Turtle"
+      },
+      {
+        "language": "Inglés",
+        "name": "South American River Turtle"
+      },
+      {
+        "language": "Inglés",
+        "name": "True Amazon Turtle"
+      },
+      {
+        "language": "Inglés",
+        "name": "Arrau River turtle"
+      },
+      {
+        "language": "Inglés",
+        "name": "Giant South American Turtle"
+      },
+      {
+        "language": "Español",
+        "name": "Charapa"
+      },
+      {
+        "language": "Español",
+        "name": "Tortuga"
+      },
+      {
+        "language": "Español",
+        "name": "Jipú"
+      },
+      {
+        "language": "Español",
+        "name": "Tartaruga"
+      },
+      {
+        "language": "Español",
+        "name": "Arrau"
+      },
+      {
+        "name": "Bawe"
+      }
+    ],
+    "fullDescriptionApprovedInUse": {
+      "_id": "5762c4d0e1b68a831a82c747",
+      "__t": "FullDescriptionVersion",
+      "version": 1,
+      "fullDescription": {
+        "_id": "5762c4d0e1b68a831a82c748",
+        "fullDescriptionAtomized": [
+          {
+            "_id": "5762c4d0e1b68a831a82c749"
+          }
+        ],
+        "fullDescriptionUnstructured": "Caparazón aplanado y su color varía entre gris oscuro, café y verde oliva (Ernst et al. 2000). Con cinco escamas vertebrales, la segunda más larga que ancha, la cuarta la más pequeña y la quinta expandida posteriormente. Escamas marginales ensanchadas posteriormente (Ernst et al. 2000). Plastrón con un escudo intergular que separa los escudos gulares completamente. Cabeza ancha, con escudo interparietal grande, hocico puntiagudo y surco interorbital presente. Dos barbillas inframandibulares y una membrana timpánica grande (Ernst et al. 2000). Las crías y juveniles tienen también manchas amarillas en la cabeza y pecas negras, aunque esta coloración desaparece con la edad. Machos adultos con el caparazón en forma circular, la muesca anal del plastrón es muy pronunciada o en forma de “U” y la cola es más larga. Hembras con el caparazón ovalado, más amplio en su región pélvica, y una muesca anal del plastrón menos pronunciada y en forma de “V” (Pritchard y Trebbau 1984, von Hildebrand et al. 1997, Ernst et al. 2000). De acuerdo con Ceballos-Fonseca (2000) y Valenzuela et al. (2004), en los tortuguillos recién nacidos también es posible detectar dimorfismo sexual en la forma, tanto en el caparazón como en el plastrón, utilizando morfometría geométrica. Esto es, el caparazón de los tortuguillos machos es más ancho en la región central (con forma de confite), mientras que el de las hembras es relativamente más angosto (forma de reloj de arena). El plastrón de los tortuguillos hembras es más ancho en su región pectoral y más angular en su región pélvica en relación con el de los machos.",
+        "ancillaryData": [
+          {
+            "mediaURL": [],
+            "agent": [],
+            "reference": [
+              {
+                "identifiers": [],
+                "authors": [
+                  "Ernst, C H; Altenburg, R G M; Barbour, R W"
+                ],
+                "editors": [],
+                "keywords": [],
+                "year": "2000-01-01T00:00:00.000Z",
+                "link": "",
+                "issn": "",
+                "isbn": "",
+                "doi": "",
+                "institution": "Biodiversity Center, Expert Center for Taxonomy and Identification, University of Amsterdam",
+                "edition": "",
+                "publisher": "SpringerVerlag, UNESCO",
+                "websites": "",
+                "chapter": "",
+                "series": "",
+                "pages": "",
+                "issue": "",
+                "volume": "",
+                "title": "Turtles of the World — Multimedia interactive CD-ROM",
+                "source": "",
+                "type": "book",
+                "tags": "",
+                "group_id": "",
+                "profile_id": "",
+                "_id": "5762c4d0e1b68a831a82c753",
+                "last_modified": "",
+                "created": ""
+              }
+            ],
+            "dataObject": "",
+            "additionalInformation": "",
+            "geoPoint": "",
+            "location": "",
+            "thumbnailURL": "",
+            "description": "",
+            "source": "ernst et al 2000",
+            "bibliographicCitation": "",
+            "rightsHolder": "",
+            "rights": "",
+            "license": "",
+            "mimeType": "",
+            "dataType": "",
+            "_id": "5762c4d0e1b68a831a82c752",
+            "subject": [],
+            "audience": [],
+            "modified": "",
+            "created": ""
+          },
+          {
+            "mediaURL": [],
+            "agent": [],
+            "reference": [
+              {
+                "identifiers": [],
+                "authors": [
+                  "Pritchard, P C H; Trebbau, P"
+                ],
+                "editors": [],
+                "keywords": [],
+                "year": "1984-01-01T00:00:00.000Z",
+                "link": "",
+                "issn": "",
+                "isbn": "",
+                "doi": "",
+                "institution": "",
+                "edition": "",
+                "publisher": "Society for the Study of Amphibians and Reptiles, Contributions to Herpetology, No. 2.",
+                "websites": "",
+                "chapter": "",
+                "series": "",
+                "pages": "414",
+                "issue": "",
+                "volume": "",
+                "title": "The Turtles of Venezuela",
+                "source": "",
+                "type": "book",
+                "tags": "",
+                "group_id": "",
+                "profile_id": "",
+                "_id": "5762c4d0e1b68a831a82c751",
+                "last_modified": "",
+                "created": ""
+              }
+            ],
+            "dataObject": "",
+            "additionalInformation": "",
+            "geoPoint": "",
+            "location": "",
+            "thumbnailURL": "",
+            "description": "",
+            "source": "pritchard trebbau 1984",
+            "bibliographicCitation": "",
+            "rightsHolder": "",
+            "rights": "",
+            "license": "",
+            "mimeType": "",
+            "dataType": "",
+            "_id": "5762c4d0e1b68a831a82c750",
+            "subject": [],
+            "audience": [],
+            "modified": "",
+            "created": ""
+          },
+          {
+            "mediaURL": [],
+            "agent": [],
+            "reference": [
+              {
+                "identifiers": [],
+                "authors": [
+                  "von Hildebrand, P; Bermúdez, N; Peñuela, M C"
+                ],
+                "editors": [],
+                "keywords": [],
+                "year": "1997-01-01T00:00:00.000Z",
+                "link": "",
+                "issn": "",
+                "isbn": "",
+                "doi": "",
+                "institution": "",
+                "edition": "1a edición",
+                "publisher": "Disloque Editores",
+                "websites": "",
+                "chapter": "",
+                "series": "",
+                "pages": "152",
+                "issue": "",
+                "volume": "",
+                "title": "La tortuga charapa (Podocnemis expansa) en el bajo Río Caquetá, Amazonas, Colombia: Aspectos de la biología reproductiva y técnicas para su manejo",
+                "source": "",
+                "type": "book",
+                "tags": "",
+                "group_id": "",
+                "profile_id": "",
+                "_id": "5762c4d0e1b68a831a82c74f",
+                "last_modified": "",
+                "created": ""
+              }
+            ],
+            "dataObject": "",
+            "additionalInformation": "",
+            "geoPoint": "",
+            "location": "",
+            "thumbnailURL": "",
+            "description": "",
+            "source": "von Hildebrand et al. 1997",
+            "bibliographicCitation": "",
+            "rightsHolder": "",
+            "rights": "",
+            "license": "",
+            "mimeType": "",
+            "dataType": "",
+            "_id": "5762c4d0e1b68a831a82c74e",
+            "subject": [],
+            "audience": [],
+            "modified": "",
+            "created": ""
+          },
+          {
+            "mediaURL": [],
+            "agent": [],
+            "reference": [
+              {
+                "identifiers": [],
+                "authors": [
+                  "Ceballos-Fonseca, C P"
+                ],
+                "editors": [],
+                "keywords": [],
+                "year": "2000-01-01T00:00:00.000Z",
+                "link": "",
+                "issn": "",
+                "isbn": "",
+                "doi": "",
+                "institution": "",
+                "edition": "",
+                "publisher": "",
+                "websites": "",
+                "chapter": "",
+                "series": "",
+                "pages": "187-194",
+                "issue": "2",
+                "volume": "1",
+                "title": "Tortugas (Testudinata) marinas y continentales de Colombia",
+                "source": "Biota Colombiana",
+                "type": "article",
+                "tags": "",
+                "group_id": "",
+                "profile_id": "",
+                "_id": "5762c4d0e1b68a831a82c74d",
+                "last_modified": "",
+                "created": ""
+              }
+            ],
+            "dataObject": "",
+            "additionalInformation": "",
+            "geoPoint": "",
+            "location": "",
+            "thumbnailURL": "",
+            "description": "",
+            "source": "Ceballos-Fonseca 2000",
+            "bibliographicCitation": "",
+            "rightsHolder": "",
+            "rights": "",
+            "license": "",
+            "mimeType": "",
+            "dataType": "",
+            "_id": "5762c4d0e1b68a831a82c74c",
+            "subject": [],
+            "audience": [],
+            "modified": "",
+            "created": ""
+          },
+          {
+            "mediaURL": [],
+            "agent": [],
+            "reference": [
+              {
+                "identifiers": [],
+                "authors": [
+                  "Valenzuela, N; Adams, D C; Bowden, R M; Gauger, A C"
+                ],
+                "editors": [],
+                "keywords": [],
+                "year": "2004-01-01T00:00:00.000Z",
+                "link": "",
+                "issn": "",
+                "isbn": "",
+                "doi": "",
+                "institution": "",
+                "edition": "",
+                "publisher": "",
+                "websites": "",
+                "chapter": "",
+                "series": "",
+                "pages": "735-742",
+                "issue": "4",
+                "volume": "2004",
+                "title": "Geometric morphometric sex estimation for hatchling turtles: A powerful alternative for detecting subtle sexual shape dimorphism",
+                "source": "Copeia",
+                "type": "article",
+                "tags": "",
+                "group_id": "",
+                "profile_id": "",
+                "_id": "5762c4d0e1b68a831a82c74b",
+                "last_modified": "",
+                "created": ""
+              }
+            ],
+            "dataObject": "",
+            "additionalInformation": "",
+            "geoPoint": "",
+            "location": "",
+            "thumbnailURL": "",
+            "description": "",
+            "source": "Valenzuela et al. 2004",
+            "bibliographicCitation": "",
+            "rightsHolder": "",
+            "rights": "",
+            "license": "",
+            "mimeType": "",
+            "dataType": "",
+            "_id": "5762c4d0e1b68a831a82c74a",
+            "subject": [],
+            "audience": [],
+            "modified": "",
+            "created": ""
+          }
+        ]
+      },
+      "id_record": "567055daf289f5a40c0cd2d5",
+      "id_user": "sib+ac@humboldt.org.co",
+      "state": "accepted",
+      "element": "fullDescription",
+      "created": "2015-12-15T18:03:06.000Z"
+    },
+    "threatStatusApprovedInUse": {
+      "_id": "5762c831e1b68a831a86357a",
+      "__t": "ThreatStatusVersion",
+      "version": 1,
+      "id_record": "567055daf289f5a40c0cd2d5",
+      "id_user": "sib+ac@humboldt.org.co",
+      "state": "accepted",
+      "element": "threatStatus",
+      "threatStatus": [
+        {
+          "threatStatusUnstructured": "",
+          "threatStatusAtomized": {
+            "threatCategory": {
+              "measurementDeterminedBy": [],
+              "measurementValue": "En peligro crítico (CR)",
+              "relatedTo": "",
+              "measurementRemarks": "",
+              "measurementMethod": "",
+              "measurementDeterminedDate": "",
+              "measurementUnit": "",
+              "measurementAccuracy": "",
+              "measurementType": "IUCN",
+              "measurementID": ""
+            },
+            "appliesTo": {
+              "locality": "",
+              "municipality": "",
+              "county": "",
+              "stateProvince": "",
+              "country": "Colombia"
+            },
+            "_id": "5762c831e1b68a831a86357e",
+            "authority": [
+              "IUCN"
+            ],
+            "apendiceCITES": "Apéndice II",
+            "ancillaryData": []
+          },
+          "_id": "5762c831e1b68a831a86357d",
+          "ancillaryData": []
+        },
+        {
+          "threatStatusUnstructured": "",
+          "threatStatusAtomized": {
+            "threatCategory": {
+              "measurementDeterminedBy": [],
+              "measurementValue": "Preocupación menor (LC)",
+              "relatedTo": "",
+              "measurementRemarks": "",
+              "measurementMethod": "",
+              "measurementDeterminedDate": "",
+              "measurementUnit": "",
+              "measurementAccuracy": "",
+              "measurementType": "IUCN",
+              "measurementID": ""
+            },
+            "appliesTo": {
+              "locality": "",
+              "municipality": "",
+              "county": "",
+              "stateProvince": "",
+              "country": "Global"
+            },
+            "_id": "5762c831e1b68a831a86357c",
+            "authority": [
+              "IUCN"
+            ],
+            "apendiceCITES": "",
+            "ancillaryData": []
+          },
+          "_id": "5762c831e1b68a831a86357b",
+          "ancillaryData": []
+        }
+      ],
+      "created": "2015-12-15T18:03:06.000Z",
+      "__v": 0
+    },
+    "threatStatusValue": "En peligro crítico (CR)",
+    "imageInfo": {
+      "source": "https://www.flickr.com/photos/wilfredor/16486263202/in/photolist-r7QnMY-r7QpFh-fgMq6L-5ZVHRP-5ZZTUA-5ZZN5y-5ZVC7i-amiwsd-amiwgj-amfJ2H-amivwQ-amfHiP-izJxKj-z3xQc3-yo8Xaw-zkaBt4-z3yWE9-62AVEL-4RBJpo-4Rxxnx-nf3z4j",
+      "mainImage": "https://farm8.staticflickr.com/7364/16486263202_fa748bd277.jpg"
+    }
+  },
+  {
+    "_id": "56707a81f289f5a40c0cd2de",
+    "creation_date": "2015-12-15T20:39:29.000Z",
+    "scientificNameSimple": "Podocnemis unifilis Troschel, 1848",
+    "commonNames": [
+      {
+        "language": "Inglés",
+        "name": "Yellow-spotted Amazon River Turtle"
+      },
+      {
+        "language": "Inglés",
+        "name": "Yellow-spotted River Turtle"
+      },
+      {
+        "language": "Alemán",
+        "name": "Terekay-Schienenschildkröte"
+      },
+      {
+        "name": "Yellow-headed Sideneck Turtle"
+      },
+      {
+        "language": "Español",
+        "name": "Terecay"
+      },
+      {
+        "language": "Español",
+        "name": "Taricay"
+      },
+      {
+        "language": "Español",
+        "name": "Taracayá"
+      },
+      {
+        "language": "Español",
+        "name": "Taricayá"
+      },
+      {
+        "language": "Español",
+        "name": "Terecaya"
+      },
+      {
+        "language": "Español",
+        "name": "Tarikaya"
+      },
+      {
+        "language": "Español",
+        "name": "Tracajá"
+      },
+      {
+        "name": "Tracaxá"
+      },
+      {
+        "language": "Español",
+        "name": "Charapa"
+      },
+      {
+        "language": "Español",
+        "name": "Peta de río"
+      },
+      {
+        "language": "Español",
+        "name": "Capitarí (machos)"
+      },
+      {
+        "language": "Español",
+        "name": "Tortuga de puntos amarillos"
+      }
+    ],
+    "fullDescriptionApprovedInUse": {
+      "_id": "5762c4cfe1b68a831a82c600",
+      "__t": "FullDescriptionVersion",
+      "version": 1,
+      "fullDescription": {
+        "_id": "5762c4cfe1b68a831a82c601",
+        "fullDescriptionAtomized": [
+          {
+            "_id": "5762c4cfe1b68a831a82c602"
+          }
+        ],
+        "fullDescriptionUnstructured": "Tamaño mediano a relativamente grande. Caparazón con 12 escudos marginales, cinco vertebrales y ocho costales (Pritchard y Trebbau 1984). Es ovalado y moderadamente convexo con una quilla ligeramente elevada en los escudos vertebrales V2 y V3. Carece de placa nucal y es más ancho en la región central (marginal VII), pero sin expansión en la parte posterior. Presenta indentación cervical y su color varía de marrón oscuro a negro (Medem 1976, Pritchard y Trebbau 1984). Plastrón más pequeño que el caparazón, de color amarillo aunque puede tener manchas oscuras y la región anterior es más larga, ancha y redondeada que la región posterior. En esta última se distingue la muesca anal, la cual varía de forma con la edad y el sexo (Ernst y Barbour 1989). Cabeza alargada con un hocico sobresaliente y una bárbilla bajo la mandíbula inferior, aunque se han reportado dos (Medem 1964). Dos escamas parietales frontales grandes, un surco interparietal y una membrana timpánica grande. Escama interparietal ligeramente más alargada que ancha y terminada en punta en la región posterior. Presenta escamas suboculares y el surco interorbital puede ser indistinto o ausente en algunas poblaciones (Pritchard y Trebbau 1984), aunque en las poblaciones colombianas el surco es conspicuo. \n\nEl color del caparazón de los juveniles y neonatos es marrón a verde grisáceo, el margen está rodeado por una línea amarilla, especialmente en los neonatos. Es marcadamente convexo y más elevado en la escama vertebral V3; además, los escudos medios de las placas neurales son más anchos que largos y la escama interparietal es convexa. Plastrón gris rosáceo, cabeza gris a oliva o marrón a negra, con manchas amarillas-naranjas; y ojos verdes (Pritchard 1979). Al igual que los adultos se observa una o dos bárbillas en el mentón (Medem 1969). Mandíbulas de color marrón oscuro o negras, la barbilla es de color amarillento. La mandíbula superior posee indentación y dos cuñas en la superficie de trituración (Ernst y Barbour 1989). La piel varía de gris a negro (Pritchard y Trebbau 1984).\n\nHay dimorfismo sexual bien marcado, las hembras adultas son mucho más grandes que los machos sexualmente reproductivos (Pritchard 1979). El plastrón de los machos no es cóncavo y la muesca anal es con forma de U, mientras que el plastrón en las hembras es más ancho pero la muesca anal tiene forma de V (Pritchard y Trebbau 1984). La cola de los machos es muy larga en proporción a su tamaño y además es mucho más gruesa que la cola de las hembras, tanto en la región pre-cloacal como en la post-cloacal (Pritchard 1979). La cabeza de las hembras posee una coloración marrón clara tanto dorsal como lateral, mientras que la de los machos es más oscura y además retienen las manchas amarillas (aunque menos brillantes), típicas de los neonatos y juveniles (Ernst y Barbour 1989). El iris de los machos es de color verduzco, muy similar a la de los juveniles, siendo de color negro el de las hembras (Pritchard 1979). A simple vista no se detectan diferencias en el sexo de los neonatos o juveniles, ya que las características secundarias sexuales externas no están desarrolladas (Medem 1969).",
+        "ancillaryData": [
+          {
+            "mediaURL": [],
+            "agent": [],
+            "reference": [
+              {
+                "identifiers": [],
+                "authors": [
+                  "Pritchard, P C H; Trebbau, P"
+                ],
+                "editors": [],
+                "keywords": [],
+                "year": "1984-01-01T00:00:00.000Z",
+                "link": "",
+                "issn": "",
+                "isbn": "",
+                "doi": "",
+                "institution": "Society for the Study of Amphibians and Reptiles, Contributions to Herpetology",
+                "edition": "No. 2",
+                "publisher": "",
+                "websites": "",
+                "chapter": "",
+                "series": "",
+                "pages": "414",
+                "issue": "",
+                "volume": "",
+                "title": "The Turtles of Venezuela",
+                "source": "",
+                "type": "book",
+                "tags": "",
+                "group_id": "",
+                "profile_id": "",
+                "_id": "5762c4cfe1b68a831a82c60c",
+                "last_modified": "",
+                "created": ""
+              }
+            ],
+            "dataObject": "",
+            "additionalInformation": "",
+            "geoPoint": "",
+            "location": "",
+            "thumbnailURL": "",
+            "description": "",
+            "source": "Pritchard y Trebbau 1984",
+            "bibliographicCitation": "",
+            "rightsHolder": "",
+            "rights": "",
+            "license": "",
+            "mimeType": "",
+            "dataType": "",
+            "_id": "5762c4cfe1b68a831a82c60b",
+            "subject": [],
+            "audience": [],
+            "modified": "",
+            "created": ""
+          },
+          {
+            "mediaURL": [],
+            "agent": [],
+            "reference": [
+              {
+                "identifiers": [],
+                "authors": [
+                  "Medem, F"
+                ],
+                "editors": [],
+                "keywords": [],
+                "year": "1976-01-01T00:00:00.000Z",
+                "link": "",
+                "issn": "",
+                "isbn": "",
+                "doi": "",
+                "institution": "",
+                "edition": "",
+                "publisher": "",
+                "websites": "",
+                "chapter": "",
+                "series": "",
+                "pages": "1-17",
+                "issue": "",
+                "volume": "20",
+                "title": "Recomendaciones respecto a contar el escamado y tomar las dimensiones de nidos, huevos y ejemplares de los Crocodylia y Testudines",
+                "source": "Lozania",
+                "type": "article",
+                "tags": "",
+                "group_id": "",
+                "profile_id": "",
+                "_id": "5762c4cfe1b68a831a82c60a",
+                "last_modified": "",
+                "created": ""
+              }
+            ],
+            "dataObject": "",
+            "additionalInformation": "",
+            "geoPoint": "",
+            "location": "",
+            "thumbnailURL": "",
+            "description": "",
+            "source": "Medem 1976",
+            "bibliographicCitation": "",
+            "rightsHolder": "",
+            "rights": "",
+            "license": "",
+            "mimeType": "",
+            "dataType": "",
+            "_id": "5762c4cfe1b68a831a82c609",
+            "subject": [],
+            "audience": [],
+            "modified": "",
+            "created": ""
+          },
+          {
+            "mediaURL": [],
+            "agent": [],
+            "reference": [
+              {
+                "identifiers": [],
+                "authors": [
+                  "Ernst, C; Barbour, R"
+                ],
+                "editors": [],
+                "keywords": [],
+                "year": "1989-01-01T00:00:00.000Z",
+                "link": "",
+                "issn": "",
+                "isbn": "",
+                "doi": "",
+                "institution": "",
+                "edition": "",
+                "publisher": "Smithsonian Institution Press",
+                "websites": "",
+                "chapter": "",
+                "series": "",
+                "pages": "313",
+                "issue": "",
+                "volume": "",
+                "title": "Turtles of the world",
+                "source": "",
+                "type": "book",
+                "tags": "",
+                "group_id": "",
+                "profile_id": "",
+                "_id": "5762c4cfe1b68a831a82c608",
+                "last_modified": "",
+                "created": ""
+              }
+            ],
+            "dataObject": "",
+            "additionalInformation": "",
+            "geoPoint": "",
+            "location": "",
+            "thumbnailURL": "",
+            "description": "",
+            "source": "Ernst y Barbour 1989",
+            "bibliographicCitation": "",
+            "rightsHolder": "",
+            "rights": "",
+            "license": "",
+            "mimeType": "",
+            "dataType": "",
+            "_id": "5762c4cfe1b68a831a82c607",
+            "subject": [],
+            "audience": [],
+            "modified": "",
+            "created": ""
+          },
+          {
+            "mediaURL": [],
+            "agent": [],
+            "reference": [
+              {
+                "identifiers": [],
+                "authors": [
+                  "Pritchard, P C H"
+                ],
+                "editors": [],
+                "keywords": [],
+                "year": "1979-01-01T00:00:00.000Z",
+                "link": "",
+                "issn": "",
+                "isbn": "",
+                "doi": "",
+                "institution": "",
+                "edition": "",
+                "publisher": "T.F.H. Publications, Inc. Ltd",
+                "websites": "",
+                "chapter": "",
+                "series": "",
+                "pages": "895",
+                "issue": "",
+                "volume": "",
+                "title": "Encyclopedia of turtles",
+                "source": "",
+                "type": "book",
+                "tags": "",
+                "group_id": "",
+                "profile_id": "",
+                "_id": "5762c4cfe1b68a831a82c606",
+                "last_modified": "",
+                "created": ""
+              }
+            ],
+            "dataObject": "",
+            "additionalInformation": "",
+            "geoPoint": "",
+            "location": "",
+            "thumbnailURL": "",
+            "description": "",
+            "source": "Pritchard 1979",
+            "bibliographicCitation": "",
+            "rightsHolder": "",
+            "rights": "",
+            "license": "",
+            "mimeType": "",
+            "dataType": "",
+            "_id": "5762c4cfe1b68a831a82c605",
+            "subject": [],
+            "audience": [],
+            "modified": "",
+            "created": ""
+          },
+          {
+            "mediaURL": [],
+            "agent": [],
+            "reference": [
+              {
+                "identifiers": [],
+                "authors": [
+                  "Medem, F"
+                ],
+                "editors": [],
+                "keywords": [],
+                "year": "1969-01-01T00:00:00.000Z",
+                "link": "",
+                "issn": "",
+                "isbn": "",
+                "doi": "",
+                "institution": "",
+                "edition": "",
+                "publisher": "",
+                "websites": "",
+                "chapter": "",
+                "series": "",
+                "pages": "329-353",
+                "issue": "",
+                "volume": "10",
+                "title": "Estudios adicionales sobre los Crocodylia y Testudinata del alto Caquetá y río Caguán",
+                "source": "Caldasia",
+                "type": "article",
+                "tags": "",
+                "group_id": "",
+                "profile_id": "",
+                "_id": "5762c4cfe1b68a831a82c604",
+                "last_modified": "",
+                "created": ""
+              }
+            ],
+            "dataObject": "",
+            "additionalInformation": "",
+            "geoPoint": "",
+            "location": "",
+            "thumbnailURL": "",
+            "description": "",
+            "source": "Medem 1969",
+            "bibliographicCitation": "",
+            "rightsHolder": "",
+            "rights": "",
+            "license": "",
+            "mimeType": "",
+            "dataType": "",
+            "_id": "5762c4cfe1b68a831a82c603",
+            "subject": [],
+            "audience": [],
+            "modified": "",
+            "created": ""
+          }
+        ]
+      },
+      "id_record": "56707a81f289f5a40c0cd2de",
+      "id_user": "sib+ac@humboldt.org.co",
+      "state": "accepted",
+      "element": "fullDescription",
+      "created": "2015-12-15T20:39:29.000Z"
+    },
+    "threatStatusApprovedInUse": {
+      "_id": "5762c830e1b68a831a863495",
+      "__t": "ThreatStatusVersion",
+      "version": 1,
+      "id_record": "56707a81f289f5a40c0cd2de",
+      "id_user": "sib+ac@humboldt.org.co",
+      "state": "accepted",
+      "element": "threatStatus",
+      "threatStatus": [
+        {
+          "threatStatusUnstructured": "",
+          "threatStatusAtomized": {
+            "threatCategory": {
+              "measurementDeterminedBy": [],
+              "measurementValue": "En peligro (EN)",
+              "relatedTo": "",
+              "measurementRemarks": "",
+              "measurementMethod": "",
+              "measurementDeterminedDate": "",
+              "measurementUnit": "",
+              "measurementAccuracy": "",
+              "measurementType": "IUCN",
+              "measurementID": ""
+            },
+            "appliesTo": {
+              "locality": "",
+              "municipality": "",
+              "county": "",
+              "stateProvince": "",
+              "country": "Colombia"
+            },
+            "_id": "5762c830e1b68a831a863499",
+            "authority": [
+              "IUCN"
+            ],
+            "apendiceCITES": "Apéndice II",
+            "ancillaryData": []
+          },
+          "_id": "5762c830e1b68a831a863498",
+          "ancillaryData": []
+        },
+        {
+          "threatStatusUnstructured": "",
+          "threatStatusAtomized": {
+            "threatCategory": {
+              "measurementDeterminedBy": [],
+              "measurementValue": "Vulnerable (VU)",
+              "relatedTo": "",
+              "measurementRemarks": "",
+              "measurementMethod": "",
+              "measurementDeterminedDate": "",
+              "measurementUnit": "",
+              "measurementAccuracy": "",
+              "measurementType": "IUCN",
+              "measurementID": ""
+            },
+            "appliesTo": {
+              "locality": "",
+              "municipality": "",
+              "county": "",
+              "stateProvince": "",
+              "country": "Global"
+            },
+            "_id": "5762c830e1b68a831a863497",
+            "authority": [
+              "IUCN"
+            ],
+            "apendiceCITES": "",
+            "ancillaryData": []
+          },
+          "_id": "5762c830e1b68a831a863496",
+          "ancillaryData": []
+        }
+      ],
+      "created": "2015-12-15T20:39:29.000Z",
+      "__v": 0
+    },
+    "threatStatusValue": "En peligro (EN)"
+  },
+  {
+    "_id": "5671e346f289f5a40c0cd307",
+    "creation_date": "2015-12-16T22:18:46.000Z",
+    "scientificNameSimple": "Melanosuchus niger Spix, 1825",
+    "commonNames": [
+      {
+        "language": "Inglés",
+        "name": "Black caiman"
+      },
+      {
+        "language": "Alemán",
+        "name": "Mohrenkaiman"
+      },
+      {
+        "language": "Español",
+        "name": "Caimán negro"
+      },
+      {
+        "language": "Español",
+        "name": "yacaré negro"
+      },
+      {
+        "name": "yacaré assú"
+      },
+      {
+        "language": "Español",
+        "name": "caimán cocodrilo"
+      },
+      {
+        "language": "Español",
+        "name": "caimán"
+      },
+      {
+        "name": "jacaré jhu"
+      },
+      {
+        "language": "Español",
+        "name": "jacaré negro"
+      },
+      {
+        "name": "jacaré una"
+      },
+      {
+        "language": "Español",
+        "name": "cocodrilo"
+      },
+      {
+        "language": "Portugués",
+        "name": "jacaré guaçu"
+      },
+      {
+        "language": "Portugués",
+        "name": "jacaré açu"
+      }
+    ],
+    "fullDescriptionApprovedInUse": {
+      "_id": "5762c4d3e1b68a831a82caf6",
+      "__t": "FullDescriptionVersion",
+      "version": 1,
+      "fullDescription": {
+        "_id": "5762c4d3e1b68a831a82caf7",
+        "fullDescriptionAtomized": [
+          {
+            "_id": "5762c4d3e1b68a831a82caf8"
+          }
+        ],
+        "fullDescriptionUnstructured": "Cabeza voluminosa, ancha y alta; hocico ancho, plano y relativamente corto. El rabillo del ojo se extiende más allá del margen frontal de los párpados superiores. Arista interocular no osificada totalmente en juveniles y adultos. Aristas en maxilares longitudinales presentes. Un solo hueso palpebral en juveniles y adultos. Huesos vomerianos situados ventralmente, a nivel de la sutura premaxilo-maxilar y claramente visibles. Placas cervicales en cuatro o cinco hileras. Dos hileras de placas medio-dorsales marcadamente elevadas. De 72 a 76 dientes, incluyendo cinco premaxilares, 13 a 14 maxilares y 17 a 19 mandibulares, la fórmula dentaria es 5 + 13 a 14 / 17 a 19. Patrón de escamación: 3 a 5 filas de 6 a 10 placas postoccipitales, 4 a 5 las transversas de 2 a 4 placas cervicales, 18 a 19 las de placas dorsales, 24 a 29 las transversas de 12 a 14 placas ventrales y collar ventral con 2 las transversas de placas. Las dos hileras de placas medio-dorsales están muy elevadas. La cresta caudal doble tiene de 16 a 20 placas y la cresta caudal sencilla tiene de 20 a 25 placas. Dorso predominantemente negro, región ventral crema-amarillo. Cabeza amarillenta-café, tornándose verdosa-café, con manchas grises o cafés en la mandíbula inferior y bandas amarillas a blancas a lo largo de los flancos, que desaparecen al madurar. Las crías son de color negro con bandas amarillas en el dorso y la cola (Medem 1963, 1981).",
+        "ancillaryData": [
+          {
+            "mediaURL": [],
+            "agent": [],
+            "reference": [
+              {
+                "identifiers": [],
+                "authors": [
+                  "Medem, F"
+                ],
+                "editors": [],
+                "keywords": [],
+                "year": "1963-01-01T00:00:00.000Z",
+                "link": "",
+                "issn": "",
+                "isbn": "",
+                "doi": "",
+                "institution": "",
+                "edition": "",
+                "publisher": "",
+                "websites": "",
+                "chapter": "",
+                "series": "",
+                "pages": "5-19",
+                "issue": "45",
+                "volume": "12",
+                "title": "Osteología craneal, distribución geográfica y ecología de Melanosuchus niger (Spix), (Crocodylia: Alligatoridae)",
+                "source": "Revista Academia Colombiana de Ciencias Exactas Físicas y Naturales",
+                "type": "article",
+                "tags": "",
+                "group_id": "",
+                "profile_id": "",
+                "_id": "5762c4d3e1b68a831a82cafc",
+                "last_modified": "",
+                "created": ""
+              }
+            ],
+            "dataObject": "",
+            "additionalInformation": "",
+            "geoPoint": "",
+            "location": "",
+            "thumbnailURL": "",
+            "description": "",
+            "source": "Medem 1963",
+            "bibliographicCitation": "",
+            "rightsHolder": "",
+            "rights": "",
+            "license": "",
+            "mimeType": "",
+            "dataType": "",
+            "_id": "5762c4d3e1b68a831a82cafb",
+            "subject": [],
+            "audience": [],
+            "modified": "",
+            "created": ""
+          },
+          {
+            "mediaURL": [],
+            "agent": [],
+            "reference": [
+              {
+                "identifiers": [],
+                "authors": [
+                  "Medem, F"
+                ],
+                "editors": [],
+                "keywords": [],
+                "year": "1981-01-01T00:00:00.000Z",
+                "link": "",
+                "issn": "",
+                "isbn": "",
+                "doi": "",
+                "institution": "Conciencias",
+                "edition": "",
+                "publisher": "",
+                "websites": "",
+                "chapter": "",
+                "series": "",
+                "pages": "356",
+                "issue": "",
+                "volume": "",
+                "title": "Los Crocodylia de Sur América. Volumen 1. Los Crocodylia de Colombia",
+                "source": "",
+                "type": "report",
+                "tags": "",
+                "group_id": "",
+                "profile_id": "",
+                "_id": "5762c4d3e1b68a831a82cafa",
+                "last_modified": "",
+                "created": ""
+              }
+            ],
+            "dataObject": "",
+            "additionalInformation": "",
+            "geoPoint": "",
+            "location": "",
+            "thumbnailURL": "",
+            "description": "",
+            "source": "Medem 1981",
+            "bibliographicCitation": "",
+            "rightsHolder": "",
+            "rights": "",
+            "license": "",
+            "mimeType": "",
+            "dataType": "",
+            "_id": "5762c4d3e1b68a831a82caf9",
+            "subject": [],
+            "audience": [],
+            "modified": "",
+            "created": ""
+          }
+        ]
+      },
+      "id_record": "5671e346f289f5a40c0cd307",
+      "id_user": "sib+ac@humboldt.org.co",
+      "state": "accepted",
+      "element": "fullDescription",
+      "created": "2015-12-16T22:18:46.000Z"
+    },
+    "threatStatusApprovedInUse": {
+      "_id": "5762c833e1b68a831a8637c6",
+      "__t": "ThreatStatusVersion",
+      "version": 1,
+      "id_record": "5671e346f289f5a40c0cd307",
+      "id_user": "sib+ac@humboldt.org.co",
+      "state": "accepted",
+      "element": "threatStatus",
+      "threatStatus": [
+        {
+          "threatStatusUnstructured": "",
+          "threatStatusAtomized": {
+            "threatCategory": {
+              "measurementDeterminedBy": [],
+              "measurementValue": "Vulnerable (VU)",
+              "relatedTo": "",
+              "measurementRemarks": "",
+              "measurementMethod": "",
+              "measurementDeterminedDate": "",
+              "measurementUnit": "",
+              "measurementAccuracy": "",
+              "measurementType": "IUCN",
+              "measurementID": ""
+            },
+            "appliesTo": {
+              "locality": "",
+              "municipality": "",
+              "county": "",
+              "stateProvince": "",
+              "country": "Colombia"
+            },
+            "_id": "5762c833e1b68a831a8637ca",
+            "authority": [
+              "IUCN"
+            ],
+            "apendiceCITES": "Apéndice I",
+            "ancillaryData": []
+          },
+          "_id": "5762c833e1b68a831a8637c9",
+          "ancillaryData": []
+        },
+        {
+          "threatStatusUnstructured": "",
+          "threatStatusAtomized": {
+            "threatCategory": {
+              "measurementDeterminedBy": [],
+              "measurementValue": "Preocupación menor (LC)",
+              "relatedTo": "",
+              "measurementRemarks": "",
+              "measurementMethod": "",
+              "measurementDeterminedDate": "",
+              "measurementUnit": "",
+              "measurementAccuracy": "",
+              "measurementType": "IUCN",
+              "measurementID": ""
+            },
+            "appliesTo": {
+              "locality": "",
+              "municipality": "",
+              "county": "",
+              "stateProvince": "",
+              "country": "Global"
+            },
+            "_id": "5762c833e1b68a831a8637c8",
+            "authority": [
+              "IUCN"
+            ],
+            "apendiceCITES": "",
+            "ancillaryData": []
+          },
+          "_id": "5762c833e1b68a831a8637c7",
+          "ancillaryData": []
+        }
+      ],
+      "created": "2015-12-16T22:18:46.000Z",
+      "__v": 0
+    },
+    "threatStatusValue": "Vulnerable (VU)"
+  }
+]
