@@ -1,0 +1,35 @@
+<section id="{{ document.catalogId }}">
+	<main role="main">
+		<h1>{{  ", ".join(document.commonNames['general']) }}</h1>
+		<article>
+			<h2>Introducción</h2>
+			<p>{{ document.summary }}</p>
+		</article>
+		<article>
+			<h2>Descripción General</h2>
+			<p>{{ document.generalDescription }}</p>
+		</article>
+		<article>
+			<h2>Descripción Detallada</h2>
+			<p>{{ document.fullDescription }}</p>
+		</article>
+		<article {% if document.lifeForm == '' %}
+		style="visibility: hidden"
+		{% endif %}
+		>
+			<h2>Forma de Vida</h2>
+			<p>{{ document.lifeForm}}</p>
+		</article>
+	</main>
+	<aside>
+		<div>
+			Nombres Comunes Español: {{  ", ".join(document.commonNames['spanish']) }}
+			<br/>
+			Nombres Comunes Inglés: {{  ", ".join(document.commonNames['english']) }}
+		</div>
+		<div>Riesgo Colombia: {{ document.endangeredStatus['colombia'] }}
+			<br/>
+			Riesgo Global: {{ document.endangeredStatus['global'] }}
+		</div>
+	</aside>
+</section>
