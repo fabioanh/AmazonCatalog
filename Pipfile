@@ -9,7 +9,8 @@ verify_ssl = true
 requests = "*"
 pdfkit = "*"
 jinja2 = "*"
-json = "*"
+pep8 = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.7"

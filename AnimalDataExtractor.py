@@ -7,17 +7,24 @@ GLOBAL = 'Global'
 ENGLISH_LANGUAGE = 'Inglés'
 SPANISH_LANGUAGE = 'Español'
 
+
 class AnimalDataExtractor:
     department = 'CO-AMA'
     kingdom = 'animalia'
-    countAnimalsUrl = 'http://api.catalogo.biodiversidad.co/api/v1.5/record_search/advanced_search'
-    animalListUrl = 'http://api.catalogo.biodiversidad.co/api/v1.5/record_search/advanced_search'
+    countAnimalsUrl = (
+        'http://api.catalogo.biodiversidad.co'
+        '/api/v1.5/record_search/advanced_search')
+    animalListUrl = (
+        'http://api.catalogo.biodiversidad.co'
+        '/api/v1.5/record_search/advanced_search')
 
     def extractData(self):
         animalList = self.getAnimalList()
         #  #sprint('animal list: {0}'.format(animalList))
+        animalDocumentDataResult = []
 
-        # FOR LOOP: go through the animalList and extract all the IDs, then use each of them to get the info for each of them
+        # FOR LOOP: go through the animalList and extract all the IDs,
+        # then use each of them to get the info for each of them
 
         for animalInfo in animalList:
             animalId = animalInfo['_id']
@@ -30,7 +37,9 @@ class AnimalDataExtractor:
             # #print('animalId: {0}'.format(animalInfo['_id']))
             animalDocumentData = self.detailsToDocumentData(
                 animalDetails, summary, endangeredStatus, animalId)
-            print(animalDocumentData)
+            animalDocumentDataResult += [animalDocumentData]
+            # print(animalDocumentData)
+        return animalDocumentDataResult
 
     def detailsToDocumentData(self, animalDetails, summary, endangeredStatus,
                               catalogId):
@@ -132,7 +141,9 @@ class AnimalDataExtractor:
         return animalListResponse.json()
 
     def getAnimalDetails(self, animalId):
-        animalDetailsUrl = 'http://api.catalogo.biodiversidad.co/api/v1.5/complete-record/' + str(
+        animalDetailsUrl = (
+            'http://api.catalogo.biodiversidad.co'
+            '/api/v1.5/complete-record/') + str(
             animalId)
         animalDetailsResponse = requests.get(animalDetailsUrl)
         return animalDetailsResponse.json()
