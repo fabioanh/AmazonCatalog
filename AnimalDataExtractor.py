@@ -28,8 +28,9 @@ class AnimalDataExtractor:
 
         for animalInfo in animalList:
             animalId = animalInfo['_id']
-            endangeredStatus = animalInfo['threatStatusApprovedInUse'][
-                'threatStatus']
+            if 'threatStatusApprovedInUse' in animalInfo.keys():
+                endangeredStatus = animalInfo['threatStatusApprovedInUse'][
+                    'threatStatus']
             summary = animalInfo['fullDescriptionApprovedInUse'][
                 'fullDescription']['fullDescriptionUnstructured']
             animalDetails = self.getAnimalDetails(animalId)
@@ -77,9 +78,9 @@ class AnimalDataExtractor:
     def _getImagesLocation(self, imagesInfo):
         imagesLocation = []
         for image in imagesInfo:
-            if image['mediaURL']:
-                if image['mediaURL'][0] not in imagesLocation:
-                    imagesLocation += [image['mediaURL'][0]]
+            if image['source'] and image['mediaURL']:
+                if image['source'] not in imagesLocation:
+                    imagesLocation += [image['source']]
         return imagesLocation
 
     def _getEndangeredStatus(self, endangeredStatusRaw):
@@ -110,6 +111,8 @@ class AnimalDataExtractor:
                 commonNamesResult['spanish'] += [str(commonName['name'])]
             elif commonName['language'] == ENGLISH_LANGUAGE:
                 commonNamesResult['english'] += [str(commonName['name'])]
+        if not commonNamesResult['general']:
+            commonNamesResult['general'] = commonNamesResult['spanish'][:3]
         return commonNamesResult
 
     def saveDataToFile(self, animalDetails, animalId):
@@ -129,7 +132,7 @@ class AnimalDataExtractor:
         #                                     params=countAnimalsParams)
         # animalNumber = countAnimalsResponse.json()['total']
         # #print('Number of animals: {0}'.format(animalNumber))
-        animalNumber = 3
+        animalNumber = 8
 
         animalListParams = {
             'kingdom': self.kingdom,

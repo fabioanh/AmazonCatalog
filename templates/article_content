@@ -1,35 +1,96 @@
 <section id="{{ document.catalogId }}">
 	<main role="main">
 		<h1>{{  ", ".join(document.commonNames['general']) }}</h1>
-		<article>
-			<h2>Introducción</h2>
-			<p>{{ document.summary }}</p>
-		</article>
-		<article>
+		<article {% if document.generalDescription == '' %}
+		style="visibility: hidden; height: 0;"
+		{% endif %}
+		>
 			<h2>Descripción General</h2>
 			<p>{{ document.generalDescription }}</p>
 		</article>
-		<article>
+		<article {% if document.fullDescription == '' %}
+		style="visibility: hidden; height: 0;"
+		{% endif %}
+		>
 			<h2>Descripción Detallada</h2>
 			<p>{{ document.fullDescription }}</p>
 		</article>
-		<article {% if document.lifeForm == '' %}
-		style="visibility: hidden"
+		<article {% if document.feeding == '' %}
+		style="visibility: hidden; height: 0;"
 		{% endif %}
 		>
-			<h2>Forma de Vida</h2>
-			<p>{{ document.lifeForm}}</p>
+			<h2>Alimentación</h2>
+			<p>{{ document.feeding}}</p>
+		</article>
+		<article {% if document.habitat == '' %}
+		style="visibility: hidden; height: 0;"
+		{% endif %}
+		>
+			<h2>Habitat</h2>
+			<p>{{ document.habitat}}</p>
+		</article>
+		<article {% if document.behaviour == '' %}
+		style="visibility: hidden; height: 0;"
+		{% endif %}
+		>
+			<h2>Comportamiento</h2>
+			<p>{{ document.behaviour}}</p>
+		</article>
+		<article {% if document.lifeCycle == '' %}
+		style="visibility: hidden; height: 0;"
+		{% endif %}
+		>
+			<h2>Ciclo de Vida</h2>
+			<p>{{ document.lifeCycle}}</p>
+		</article>
+		<article {% if document.reproduction == '' %}
+		style="visibility: hidden; height: 0;"
+		{% endif %}
+		>
+			<h2>Reproducción</h2>
+			<p>{{ document.reproduction}}</p>
+		</article>
+		<article {% if document.migration == '' %}
+		style="visibility: hidden; height: 0;"
+		{% endif %}
+		>
+			<h2>Migración</h2>
+			<p>{{ document.migration}}</p>
 		</article>
 	</main>
 	<aside>
-		<div>
-			Nombres Comunes Español: {{  ", ".join(document.commonNames['spanish']) }}
+		<section>
+			<p>
+				<b>Nombres Comunes Español:</b> {{  ", ".join(document.commonNames['spanish']) }}
+				<br/>
+				<b>Nombres Comunes Inglés:</b> {{  ", ".join(document.commonNames['english']) }}
+			</p>
+		</section>
+		<section>
+			<p {% if 'colombia' not in document.endangeredStatus.keys() %}
+				style="visibility: hidden; height: 0;"
+				{% endif %}
+			>
+				<b>Riesgo Colombia:</b> {{ document.endangeredStatus['colombia'] }}
+			</p>
 			<br/>
-			Nombres Comunes Inglés: {{  ", ".join(document.commonNames['english']) }}
-		</div>
-		<div>Riesgo Colombia: {{ document.endangeredStatus['colombia'] }}
-			<br/>
-			Riesgo Global: {{ document.endangeredStatus['global'] }}
-		</div>
+			<p {% if 'global' not in document.endangeredStatus.keys() %}
+				style="visibility: hidden; height: 0;"
+				{% endif %}
+			>
+				<b>Riesgo Global:</b> {{ document.endangeredStatus['global'] }}
+			</p>
+		</section>
+		<section {% if document.lifeForm == '' %}
+		style="visibility: hidden; height: 0;"
+		{% endif %}
+		>
+			<p><b>Forma de Vida:</b> {{ document.lifeForm}}</p>
+		</section>
+		{% for image in document.imagesLocation %}
+		<section>
+			<img style="width:100%" src = "{{ image }}" onerror="this.style.display='none'; this.parentElement.style.display='none';"/>
+		</section>
+		{% endfor %}
 	</aside>
 </section>
