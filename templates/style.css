@@ -56,7 +56,9 @@ main {
 }
 aside {
 	float: right;
-	width: 30%;
+	width: 33%;
+    padding-left: 2em
+
 }
 article {
     border-bottom: 2px dotted #999;
@@ -107,6 +109,7 @@ body > section {
     max-width: 1000px;
     margin: auto;
     padding: 30px 0px;
+    display: flex;
     /*border-bottom: 1px solid #999;*/
     color: #333;
 }

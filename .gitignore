@@ -103,5 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# config
+# project specific
 Config.py
+animal_data/

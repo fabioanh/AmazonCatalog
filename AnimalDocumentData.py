@@ -12,6 +12,7 @@ class AnimalDocumentData:
     lifeForm = ''
     migration = ''
     reproduction = ''
+    scientificName = ''
     summary = ''
 
     def __str__(self):
@@ -29,4 +30,5 @@ class AnimalDocumentData:
             'life form: {self.lifeForm}, \n'
             'migration: {self.migration}, \n'
             'reproduction: {self.reproduction}, \n'
+            'scientific name: {self.scientificName}, \n'
             'summary: {self.summary}')

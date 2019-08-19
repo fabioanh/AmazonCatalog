@@ -2,56 +2,42 @@
 	<main role="main">
 		<h1>{{  ", ".join(document.commonNames['general']) }}</h1>
 		<article {% if document.generalDescription == '' %}
-		style="visibility: hidden; height: 0;"
+		style="display: none; visibility: hidden; height: 0;"
 		{% endif %}
 		>
 			<h2>Descripción General</h2>
 			<p>{{ document.generalDescription }}</p>
 		</article>
 		<article {% if document.fullDescription == '' %}
-		style="visibility: hidden; height: 0;"
+		style="display: none; visibility: hidden; height: 0;"
 		{% endif %}
 		>
 			<h2>Descripción Detallada</h2>
 			<p>{{ document.fullDescription }}</p>
 		</article>
-		<article {% if document.feeding == '' %}
-		style="visibility: hidden; height: 0;"
-		{% endif %}
-		>
-			<h2>Alimentación</h2>
-			<p>{{ document.feeding}}</p>
-		</article>
-		<article {% if document.habitat == '' %}
-		style="visibility: hidden; height: 0;"
-		{% endif %}
-		>
-			<h2>Habitat</h2>
-			<p>{{ document.habitat}}</p>
-		</article>
 		<article {% if document.behaviour == '' %}
-		style="visibility: hidden; height: 0;"
+		style="display: none; visibility: hidden; height: 0;"
 		{% endif %}
 		>
 			<h2>Comportamiento</h2>
 			<p>{{ document.behaviour}}</p>
 		</article>
 		<article {% if document.lifeCycle == '' %}
-		style="visibility: hidden; height: 0;"
+		style="display: none; visibility: hidden; height: 0;"
 		{% endif %}
 		>
 			<h2>Ciclo de Vida</h2>
 			<p>{{ document.lifeCycle}}</p>
 		</article>
 		<article {% if document.reproduction == '' %}
-		style="visibility: hidden; height: 0;"
+		style="display: none; visibility: hidden; height: 0;"
 		{% endif %}
 		>
 			<h2>Reproducción</h2>
 			<p>{{ document.reproduction}}</p>
 		</article>
 		<article {% if document.migration == '' %}
-		style="visibility: hidden; height: 0;"
+		style="display: none; visibility: hidden; height: 0;"
 		{% endif %}
 		>
 			<h2>Migración</h2>
@@ -60,32 +46,74 @@
 	</main>
 	<aside>
 		<section>
-			<p>
+			<p {% if not document.commonNames['spanish'] %}
+				style="display: none; visibility: hidden; height: 0;"
+				{% endif %}
+			>
 				<b>Nombres Comunes Español:</b> {{  ", ".join(document.commonNames['spanish']) }}
-				<br/>
+			</p>
+			<br {% if not document.commonNames['spanish'] %}
+				style="display: none; visibility: hidden; height: 0;"
+				{% endif %}
+			/>
+			<p {% if not document.commonNames['english'] %}
+				style="display: none; visibility: hidden; height: 0;"
+				{% endif %}
+			>
 				<b>Nombres Comunes Inglés:</b> {{  ", ".join(document.commonNames['english']) }}
 			</p>
+			<br {% if not document.commonNames['english'] %}
+				style="display: none; visibility: hidden; height: 0;"
+				{% endif %}
+			/>
+			<p {% if not document.scientificName %}
+				style="display: none; visibility: hidden; height: 0;"
+				{% endif %}
+			>
+				<b>Nombre Científico:</b> {{  document.scientificName }}
+			</p>
 		</section>
-		<section>
+		<section {% if 'colombia' not in document.endangeredStatus.keys() and 'global' not in document.endangeredStatus.keys() %}
+			style="display: none; visibility: hidden; height: 0;"
+			{% endif %}
+		>
 			<p {% if 'colombia' not in document.endangeredStatus.keys() %}
-				style="visibility: hidden; height: 0;"
+				style="display: none; visibility: hidden; height: 0;"
 				{% endif %}
 			>
 				<b>Riesgo Colombia:</b> {{ document.endangeredStatus['colombia'] }}
 			</p>
-			<br/>
+			<br {% if 'colombia' not in document.endangeredStatus.keys() %}
+				style="display: none; visibility: hidden; height: 0;"
+				{% endif %}
+			/>
 			<p {% if 'global' not in document.endangeredStatus.keys() %}
-				style="visibility: hidden; height: 0;"
+				style="display: none; visibility: hidden; height: 0;"
 				{% endif %}
 			>
 				<b>Riesgo Global:</b> {{ document.endangeredStatus['global'] }}
 			</p>
 		</section>
 		<section {% if document.lifeForm == '' %}
-		style="visibility: hidden; height: 0;"
+		style="display: none; visibility: hidden; height: 0;"
 		{% endif %}
 		>
 			<p><b>Forma de Vida:</b> {{ document.lifeForm}}</p>
+		</section>
+		<section {% if document.habitat == '' %}
+		style="display: none; visibility: hidden; height: 0;"
+		{% endif %}
+		>
+			<p>
+			<b>Habitat: </b>{{ document.habitat }}</p>
+		</section>
+		<section {% if document.feeding == '' %}
+		style="display: none; visibility: hidden; height: 0;"
+		{% endif %}
+		>
+			<p>
+			<b>Alimentación: </b>{{ document.feeding }}
+			</p>
 		</section>
 		{% for image in document.imagesLocation %}
 		<section>
