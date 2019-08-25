@@ -1,6 +1,14 @@
 <section id="{{ document.catalogId }}">
 	<main role="main">
-		<h1>{{  ", ".join(document.commonNames['general']) }}</h1>
+		<h1>
+			<a href="http://catalogo.biodiversidad.co/file/{{ document.catalogId }}/summary" target="_blank">
+			{% if document.commonNames['general'] %}
+				{{ ", ".join(document.commonNames['general']) }}
+			{% else %}
+				{{ document.scientificName }}
+			{% endif %}
+			</a>
+		</h1>
 		<article {% if document.generalDescription == '' %}
 		style="display: none; visibility: hidden; height: 0;"
 		{% endif %}
@@ -43,13 +51,14 @@
 			<h2>Migración</h2>
 			<p>{{ document.migration}}</p>
 		</article>
-		<article {% if document.feeding == '' %}
+		<!-- <article {% if document.feeding == '' %}
 		style="display: none; visibility: hidden; height: 0;"
 		{% endif %}
 		>
 			<h2>Alimentación</h2>
 			<p>{{ document.feeding }}</p>
 		</article>
+		-->
 	</main>
 	<aside>
 		<section>
@@ -112,7 +121,16 @@
 		{% endif %}
 		>
 			<p>
-			<b>Habitat: </b>{{ document.habitat }}</p>
+				<b>Habitat: </b>{{ document.habitat }}
+			</p>
+		</section>
+		<section {% if document.feeding == '' %}
+		style="display: none; visibility: hidden; height: 0;"
+		{% endif %}
+		>
+			<p>
+				<b>Alimentación: </b>{{ document.feeding }}
+			</p>
 		</section>
 		{% for image in document.imagesLocation %}
 		<section>

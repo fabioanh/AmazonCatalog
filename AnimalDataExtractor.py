@@ -41,7 +41,8 @@ class AnimalDataExtractor:
 
     def getAnimalsDocumentData(self):
         animalList = self._getDownloadedAnimalIds()
-        # animalList = ['56c0f83cf0106c67230e7308', '56c1586df0106c67230e7311']
+        # animalList = ['56de6ff183c45700544e3c22', '56c56fccf0106c67230e73a7', '56c0f83cf0106c67230e7308', '56c1586df0106c67230e7311']
+
         animalDocumentDataResult = []
 
         for animalId in animalList:
@@ -161,20 +162,24 @@ class AnimalDataExtractor:
     def _getCommonNames(self, commonNames):
         commonNamesResult = self._initCommonNames()
         for commonName in commonNames:
+            commonNameStr = str(commonName['name'])
+            try:
+                commonNameStr = bytes(commonNameStr, 'iso-8859-1').decode('utf-8')
+            except UnicodeDecodeError as e:
+                pass
+            except UnicodeEncodeError as e1:
+                pass
             if 'language' not in commonName.keys():
-                if (str(commonName['name']) not in
-                        commonNamesResult['general']):
-                    commonNamesResult['general'] += [str(commonName['name'])]
+                if (commonNameStr not in commonNamesResult['general']):
+                    commonNamesResult['general'] += [commonNameStr]
             elif (commonName['language'] == SPANISH_LANGUAGE and
-                    str(commonName['name']) not in
-                    commonNamesResult['spanish']):
-                commonNamesResult['spanish'] += [str(commonName['name'])]
+                    commonNameStr not in commonNamesResult['spanish']):
+                commonNamesResult['spanish'] += [commonNameStr]
             elif (commonName['language'] == ENGLISH_LANGUAGE and
-                    str(commonName['name']) not in
-                    commonNamesResult['english']):
-                commonNamesResult['english'] += [str(commonName['name'])]
+                    commonNameStr not in commonNamesResult['english']):
+                commonNamesResult['english'] += [commonNameStr]
         if (not commonNamesResult['general'] and
-                str(commonName['name']) not in commonNamesResult['general']):
+                commonNameStr not in commonNamesResult['general']):
             commonNamesResult['general'] = commonNamesResult['spanish'][:3]
         return commonNamesResult
     
