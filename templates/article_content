@@ -43,6 +43,13 @@
 			<h2>Migración</h2>
 			<p>{{ document.migration}}</p>
 		</article>
+		<article {% if document.feeding == '' %}
+		style="display: none; visibility: hidden; height: 0;"
+		{% endif %}
+		>
+			<h2>Alimentación</h2>
+			<p>{{ document.feeding }}</p>
+		</article>
 	</main>
 	<aside>
 		<section>
@@ -106,14 +113,6 @@
 		>
 			<p>
 			<b>Habitat: </b>{{ document.habitat }}</p>
-		</section>
-		<section {% if document.feeding == '' %}
-		style="display: none; visibility: hidden; height: 0;"
-		{% endif %}
-		>
-			<p>
-			<b>Alimentación: </b>{{ document.feeding }}
-			</p>
 		</section>
 		{% for image in document.imagesLocation %}
 		<section>

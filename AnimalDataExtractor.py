@@ -41,6 +41,7 @@ class AnimalDataExtractor:
 
     def getAnimalsDocumentData(self):
         animalList = self._getDownloadedAnimalIds()
+        # animalList = ['56c0f83cf0106c67230e7308', '56c1586df0106c67230e7311']
         animalDocumentDataResult = []
 
         for animalId in animalList:
@@ -161,12 +162,19 @@ class AnimalDataExtractor:
         commonNamesResult = self._initCommonNames()
         for commonName in commonNames:
             if 'language' not in commonName.keys():
-                commonNamesResult['general'] += [str(commonName['name'])]
-            elif commonName['language'] == SPANISH_LANGUAGE:
+                if (str(commonName['name']) not in
+                        commonNamesResult['general']):
+                    commonNamesResult['general'] += [str(commonName['name'])]
+            elif (commonName['language'] == SPANISH_LANGUAGE and
+                    str(commonName['name']) not in
+                    commonNamesResult['spanish']):
                 commonNamesResult['spanish'] += [str(commonName['name'])]
-            elif commonName['language'] == ENGLISH_LANGUAGE:
+            elif (commonName['language'] == ENGLISH_LANGUAGE and
+                    str(commonName['name']) not in
+                    commonNamesResult['english']):
                 commonNamesResult['english'] += [str(commonName['name'])]
-        if not commonNamesResult['general']:
+        if (not commonNamesResult['general'] and
+                str(commonName['name']) not in commonNamesResult['general']):
             commonNamesResult['general'] = commonNamesResult['spanish'][:3]
         return commonNamesResult
     
